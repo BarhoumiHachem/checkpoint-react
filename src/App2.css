@@ -1,0 +1,56 @@
+.App2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f0e6ef;
+    margin: 80px 150px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header{
+    background-color: #83c5be;
+    color:#14213d;
+    padding: 15px;
+    font-weight: bold;
+  }
+
+  .Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .App-photo {
+    height: 300px;
+    border-radius: 5%;
+    border: solid 1px gray;
+    margin-right: 100px;
+  }
+  
+  .Info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FullName{
+    color: #e63946;
+    font-size: 40px;
+    padding: 20px 0;
+    font-weight: bold;
+  }
+
+  .Address{
+    font-size: 20px;
+    padding: 20px 0;
+    font-style: italic;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px
+    
+}

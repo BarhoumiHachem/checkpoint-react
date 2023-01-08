@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 1000px){
-    .user{
+    .users{
         grid-template-columns: repeat(1, 450px);
     }
 }
@@ -28,7 +28,7 @@
 }
 
 .user:hover{
-    border: 2px solid rgb(228, 225, 225) ;
+    border: 3px solid rgb(214, 113, 19) ;
     padding: 8px;
 }
 
@@ -40,4 +40,5 @@ h1{
 
 span {
     font-weight: bold;
+    text-decoration:underline;
 }
